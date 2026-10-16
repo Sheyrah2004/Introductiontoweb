@@ -9,6 +9,220 @@
             color:blue;
             background-color:yellow;
         }
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #263238;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #123b66;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: #082747;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 25px;
+            padding: 28px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #123b66;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e2eaf3;
+            padding-bottom: 8px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: #edf4fc;
+            padding: 18px;
+            border-radius: 8px;
+            border-left: 4px solid #2878b5;
+        }
+
+        .card h3 {
+            color: #123b66;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background: #082747;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 29px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sheila Amutahaire</h1>
+        <p>Mathematics Teacher | Lifelong Learner | Problem Solver</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">My Skills</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#goals">My Goals</a>
+    </nav>
+
+    <main class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is <strong>Sheila Amutahaire</strong>.
+                I am a Mathematics teacher who enjoys helping learners
+                understand mathematical concepts and develop confidence
+                in solving problems.
+            </p>
+            <p>
+                I believe that Mathematics can be interesting and enjoyable
+                when it is explained clearly and connected to everyday life.
+                I am passionate about education, personal growth, and
+                helping others achieve their academic goals.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Mathematics</h3>
+                    <p>Explaining mathematical concepts, calculations,
+                    and problem-solving techniques.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Communication</h3>
+                    <p>Explaining ideas clearly and listening to learners'
+                    questions and concerns.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Teaching</h3>
+                    <p>Preparing lessons, guiding learners, and supporting
+                    understanding through examples.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Problem Solving</h3>
+                    <p>Using logical thinking, patience, and creativity
+                    to find solutions to challenges.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Teamwork</h3>
+                    <p>Working with others, sharing ideas, and learning
+                    from different perspectives.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Technology</h3>
+                    <p>Developing my computer skills and learning to use
+                    digital tools for education.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies and Interests</h2>
+            <ul>
+                <li>Reading books and learning new things.</li>
+                <li>Solving mathematical puzzles and challenges.</li>
+                <li>Teaching and helping other people learn.</li>
+                <li>Listening to music.</li>
+                <li>Spending time with family and friends.</li>
+                <li>Exploring technology and improving my skills.</li>
+            </ul>
+        </section>
+
+        <section id="goals">
+            <h2>My Goals</h2>
+            <p>
+                My goal is to become an even better educator, inspire
+                learners to appreciate Mathematics, and continue improving
+                my professional and digital skills. I want to make learning
+                easier, more engaging, and meaningful for every learner.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sheila Amutahaire. All rights reserved.</p>
+        <p>Teaching with passion, learning with purpose.</p>
+    </footer>
+ 
 </head>
 <p>helllo
     world this is sheyra iam an ict  and math teacher iam proud to be part of your journey </p
